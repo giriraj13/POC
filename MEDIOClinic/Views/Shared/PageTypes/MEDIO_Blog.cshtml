@@ -1,0 +1,15 @@
+﻿@model Kentico.Content.Web.Mvc.Routing.IPageViewModel<CMS.DocumentEngine.Types.MEDIO.Blog>
+@addTagHelper *,Kentico.Content.Web.Mvc
+@{
+    ViewBag.Title = Model.Page.DocumentName;
+}
+
+
+
+<section class="teaser">
+		<div class="col-sm-offset-3 col-sm-4">
+			<p>@Model.Page.BlogContent</p>
+		</div>
+		<div class="clearfix"></div>
+	</section>
+	
